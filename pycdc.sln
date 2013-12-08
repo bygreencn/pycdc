@@ -1,9 +1,9 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 10.00
-# Visual Studio 2008
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "pycdc", "pycdc.vcproj", "{44A92B47-DFE6-4C07-B8D0-5D78C0ECCA21}"
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "pycdc", "pycdc.vcxproj", "{44A92B47-DFE6-4C07-B8D0-5D78C0ECCA21}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "pycdas", "pycdas.vcproj", "{102E5FEA-A879-4F26-B803-526B5D62F750}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "pycdas", "pycdas.vcxproj", "{102E5FEA-A879-4F26-B803-526B5D62F750}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
