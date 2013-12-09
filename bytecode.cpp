@@ -295,7 +295,7 @@ void bc_disasm(PycRef<PycCode> code, PycModule* mod, int indent)
     while (!source.atEof()) {
         for (int i=0; i<indent; i++)
             fprintf(pyc_output, "    ");
-        fprintf(pyc_output, "%-7d ", pos);   // Current bytecode position
+        fprintf(pyc_output, "[%7X] ", pos);   // Current bytecode position
 
         bc_next(source, mod, opcode, operand, pos);
         fprintf(pyc_output, "%-24s", Pyc::OpcodeName(opcode));
